@@ -1,0 +1,102 @@
+/* Заголовок */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Форма входу */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Таблиця результатів пошуку */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Панель навігації */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+h1 {
+    margin-top: 50px; /* Додати відступ в 50 пікселів зверху */
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+}
